@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="screen" href="contact.css">
+    <link rel="stylesheet" media="screen" href="bootstrap.bundle.js">
+    <link rel="stylesheet" media="screen" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <ul>
+      <li><a class="active" href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="checkout.html">Check Out</a></li>
+      <li><a href="login.html">Log In</a></li>
+          <a href="cart.html" target="_blank">
+      <i class="fa fa-shopping-cart fa-3x"></i></a><span class="itemsInCart"></span>
+    </ul>
+    
+
+
+    <div class="card text-center">
+      <div class="card-header">
+        Or call us at 206-783-4897
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">We're here for you! Let us know if you have any questions.</h5>
+
+        <div class="container">
+          <form action="contact.html">
+        
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">USA</option>
+              <option value="canada">Canada</option>
+              <option value="usa">Australia</option>
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
+
+      </div>
+      <div class="card-footer text-muted">
+        We'd love to hear what you have to say...
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2022</p>
+    </footer>
+
+
+</body>
+</html>
